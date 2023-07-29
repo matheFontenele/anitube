@@ -1,0 +1,43 @@
+@import 'styles/variaveis';
+@import 'styles/breakpoint';
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $dark;
+    &__title{
+        display: flex;
+        color: $branco;
+        &__two{
+            color: $red;
+        }
+    }
+
+    &__navbar{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        &__link{
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            color: $branco;
+        }
+        &__linkDestaque{
+            text-decoration: underline;
+        }
+    }
+    &__buscador{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    &__buscador input{
+        border: none;
+        outline: none;
+        background-color: $grey;
+        border-radius: 5px;
+        padding: 5px;
+        font-style: italic;
+    }
+}

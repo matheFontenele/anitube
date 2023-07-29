@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Jujutsu Kaisen",
+        "img": "",
+        "descri": "",
+        "tempo": 2,
+        "tipo": ["shounen", "suspense", "terro", "ação"]
+    },
+    {
+        "id": 2,
+        "name": "Cowboy Bebop",
+        "img": "",
+        "descri": "",
+        "tempo": 1,
+        "tipo": ["seinen", "ação"]
+    },
+    {
+        "id": 3,
+        "name": "Berserk",
+        "img": "",
+        "descri": "",
+        "tempo": 3,
+        "tipo": ["seinen", "gore", "terro", "ação"]
+    },
+    {
+        "id": 4,
+        "name": "Full Metal Alquimist",
+        "img": "",
+        "descri": "",
+        "tempo": 4,
+        "tipo": ["shounen", "aventura", "ação"]
+    },
+    {
+        "id": 5,
+        "name": "Death Note",
+        "img": "",
+        "descri": "",
+        "tempo": 2,
+        "tipo": ["seinen", "suspense", "terro", "policial"]
+    },
+    {
+        "id": 6,
+        "name": "Shinjeke no Kyojin",
+        "img": "",
+        "descri": "",
+        "tempo": 4,
+        "tipo": ["shounen", "seinen", "ação"]
+    },
+    {
+        "id": 7,
+        "name": "Dororo",
+        "img": "",
+        "descri": "",
+        "tempo": 1,
+        "tipo": ["seinen", "aventura", "ação"]
+    },
+    {
+        "id": 8,
+        "name": "Vinland Saga",
+        "img": "",
+        "descri": "",
+        "tempo": 2,
+        "tipo": ["shounen", "seinen", "aventura", "ação"]
+    },
+    {
+        "id": 9,
+        "name": "Made in Abyss",
+        "img": "",
+        "descri": "",
+        "tempo": 4,
+        "tipo": ["seinen", "misterio", "aventura"]
+    },
+    {
+        "id": 10,
+        "name": "Uzumaki",
+        "img": "",
+        "descri": "",
+        "tempo": 1,
+        "tipo": ["seinen", "suspense", "terro"]
+    }
+]

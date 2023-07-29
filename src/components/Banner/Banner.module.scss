@@ -1,0 +1,54 @@
+@import 'styles/_variaveis.scss';
+@import 'styles/_breakpoint.scss';
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 2rem;
+    background: url('../../assets/img//jujutsu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title, &__titlemini, &__descri{
+        background-color: $trasnparencia;
+        max-width: 40%;
+        padding: 10px;
+        color: $branco;
+    }
+    &__title{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    &__titlemini img{
+        width: 1.5rem;
+    }
+    &__descri{
+        font-size: 1.3rem;
+    }
+    &__butonsDiv{
+        display: flex;
+        max-width: 40%;
+        gap: 5rem;
+        &__btnPlay{
+            background-color: $branco;
+        }
+        &__btnInfo{
+            background-color: transparent;
+            color: $branco;
+        }
+        }
+    &__butonsDiv button{
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border: 1px solid $branco;
+        flex: 1;
+        border-radius: 5px;
+        opacity: 0.8;
+    }
+    &__butonsDiv button:hover{
+        opacity: 1;
+    }
+}

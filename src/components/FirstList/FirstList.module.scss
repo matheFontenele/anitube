@@ -1,0 +1,35 @@
+@import 'styles/_variaveis.scss';
+@import 'styles/_variaveis.scss';
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    flex-wrap:wrap;
+    gap: 25px;
+    transition: transform .4s;
+    margin-top: -50px;
+    &__anime{
+        background-color: $grey;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        text-align: center;
+        &__types{
+            display: flex;
+            padding: 0;
+            gap: 5px;
+            justify-content: center;
+            &__type{
+                font-size: .8rem;
+                background-color: $trasnparencia;
+                padding: 3px;
+            }
+        }
+    }
+    &__anime:hover{
+        transform: translate(0, -2rem);
+    }
+}
