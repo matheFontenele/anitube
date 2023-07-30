@@ -10,18 +10,29 @@
     transition: transform .4s;
     margin-top: -50px;
     &__anime{
-        background-color: $grey;
+        background-repeat: no-repeat;
+        height: 250px;
         border-radius: 10px;
         padding: 10px;
         display: flex;
         flex-direction: column;
         width: 200px;
         text-align: center;
+        justify-content: end;
+        align-items: center;
+        cursor: pointer;
+        border: 3px solid $dark;
+        &__title{
+            color: $branco;
+            background-color: $trasnparencia;
+            padding: 5px;
+        }
         &__types{
             display: flex;
             padding: 0;
             gap: 5px;
             justify-content: center;
+            color: $branco;
             &__type{
                 font-size: .8rem;
                 background-color: $trasnparencia;

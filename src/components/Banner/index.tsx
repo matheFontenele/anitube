@@ -4,6 +4,7 @@ import top10 from 'assets/img/Top10.png';
 import styles from './Banner.module.scss';
 
 export default function Banner(){
+
     return(
         <section className={styles.banner}>
             <h1 className={styles.banner__title}>HEntai de Waifu</h1>

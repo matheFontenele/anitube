@@ -6,12 +6,14 @@ import Animes from 'pages/Animes';
 import Filmes from 'pages/Filmes';
 import Mangas from 'pages/Mangas';
 import Comunidade from 'pages/Comunidade';
+import Capa from 'assets/img/wallpaper.jpg'
 
 function App() {
   return (
       <BrowserRouter>
         <Header/>
 
+        <main style={{background: `url(${Capa})`}}>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/animes' element={<Animes/>}/>
@@ -19,6 +21,8 @@ function App() {
             <Route path='/mangas' element={<Mangas/>}/>
             <Route path='/comunidade' element={<Comunidade/>}/>
         </Routes>
+        </main>
+        
       </BrowserRouter>
   );
 }
